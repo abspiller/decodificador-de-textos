@@ -6,13 +6,15 @@ Bem-vindo ao Decodificador de Textos! Este é um projeto desenvolvido utilizando
 ## Descrição do Projeto
 O Decodificador de Textos é uma aplicação web que permite aos usuários codificar e decodificar textos de forma simples e rápida. Utilizando algoritmos de codificação e decodificação, este projeto oferece uma interface amigável para transformar mensagens de maneira segura.
 
+https://github.com/abspiller/decodificador-de-textos/assets/157075633/dd870cc6-1418-441b-a902-a066b9cc30f2
+
 ## Funcionalidades
 * **Codificação e Decodificação:** Os usuários podem inserir um texto na interface e escolher entre as opções de codificação ou decodificação para obter o resultado desejado.
 
 * **Responsividade:** O projeto está em fase de desenvolvimento responsivo, proporcionando uma experiência consistente em diferentes dispositivos.
 
 ## Instruções de Uso
-1. Acesse o Decodificador de Textos pela internet.
+1. Acesse o [Decodificador de Textos](https://decodificador-de-textos-rose.vercel.app/) pela internet.
 
 2. Insira o texto que deseja codificar ou decodificar na área designada.
 
@@ -36,6 +38,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 ## Licença
 Este projeto é licenciado sob a Licença MIT - veja o arquivo LICENSE.md para mais detalhes.
 
+![Static Badge](https://img.shields.io/badge/MIT-yellow?style=for-the-badge&logo=html&logoColor=white&label=License)
 
 #### Agradecemos por utilizar e contribuir para o Decodificador de Textos!
 
@@ -60,3 +63,6 @@ As dificuldades encontradas não foram apenas obstáculos, mas oportunidades de 
 O projeto do Decodificador de Textos não foi apenas uma introdução ao desenvolvimento web, mas uma jornada rica em aprendizados. Aprender a lidar com HTML, CSS e JavaScript não apenas ampliou meu conjunto de habilidades, mas também me instigou a buscar continuamente a excelência no desenvolvimento de software.
 
 Este projeto é uma celebração de aprendizado, superação e dedicação, agradeço pela oportunidade de participar deste projeto e pela valiosa experiência adquirida.
+
+[![Powered by Vercel](https://raw.githubusercontent.com/abumalick/powered-by-vercel/master/powered-by-vercel.svg)](https://decodificador-de-textos-rose.vercel.app/)
+
