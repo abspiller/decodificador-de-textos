@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de Texto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+           
+    <main class="container">
+
+        <section class="logo">
+            <img src="./assets/logo-alura.svg" alt="Logo Alura">
+        </section>
+
+
+        <section class="entrada-texto">
+            
+            <form>
+                <textarea id="caixa-texto" placeholder="Digite seu texto" onfocus="this.value='';" rows="4" cols="50"></textarea>
+            </form>
+                        
+            <p class="aviso-letras"> <img src="./assets/bi_exclamation-circle-fill.svg" alt="Ícone ponto de exclamação"> Apenas letras minúsculas e sem acento</p>
+
+            <div class="btn">
+                <button id="btn-cripto">Criptografar</button>
+                <button id="btn-descripto">Descriptografar</button>
+            </div>
+
+        </section>
+
+
+        <section class="saida-texto"> 
+
+            <div id="saida-texto-imagem">
+                <img id="imagem-menino" src="./assets/imagem-oficial.svg" alt="Imagem de rapaz com lupa na mão">
+            
+                <h3>Nenhuma mensagem <br> encontrada</h3>
+                <p class="aviso-digite">Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+            </div>
+
+
+            <div id="saida-texto-criptografado">
+                <textarea id="texto-criptografado" rows="4" cols="50"></textarea>
+            </div> 
+                       
+            <div class="btn-copiar-texto">
+            <button id="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+
+        </section>      
+
+    </main>
+
+    <footer class="rodape">Desenvolvido por Ana Beatriz Spiller | ONE Next Education | Turma 6 </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
